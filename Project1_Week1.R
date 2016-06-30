@@ -9,6 +9,9 @@ library(reshape2) # for melt() purpose
 library(Rmisc) # for combining multiple ggplot multiplot()
 
 data = read.csv("household_power_consumption.txt", sep = ";")
+
+setwd("C:/Users/dan_9/Desktop/COURSERA + SELF STUDY/Exploratory Data Analysis by John Hopkins University/Project 1/Analysis")
+
 datawork = data
 glimpse(datawork)
 
